@@ -9,36 +9,19 @@
   font-size: 5rem;
   color: white;
 }
-h4 {
-  color: white;
-}
-h5 {
-  margin-top: 30px;
-  color: white;
-  text-align: center;
-}
-h6 {
-  color: white;
-  text-align: center;
-}
-img {
-  width: 5%;
-  text-align: left;
-  background-color: #ba81f1;
-}
-.grad1 {
-  height: 130px;
 
-  background-color: #ba81f1;
+.primaryDark {
+  background-color: #5d4576;
 }
-.grad2 {
-  height: 130px;
-
-  background-color: #ee3daa;
+.primaryLight {
+  background-color: #e4888a;
 }
 
-.grad3 {
-  height: 130px;
-
-  background-color: #ba81f1;
+.secondPage {
+  margin: 100px;
+}
+.one {
+  margin-right: 20px;
+  width: 180px;
+  height: 270px;
 }
