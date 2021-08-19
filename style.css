@@ -17,11 +17,11 @@
   background-color: #e4888a;
 }
 
-.secondPage {
-  margin: 100px;
-}
-.one {
-  margin-right: 20px;
+.cardSize {
   width: 180px;
-  height: 270px;
+  height: 280px;
+}
+.teeth {
+  width: 50px;
+  height: 50px;
 }
