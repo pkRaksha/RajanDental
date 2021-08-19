@@ -37,3 +37,13 @@
 .lightBtn:hover {
   background-color: #d84a4d;
 }
+
+.middlePageImage {
+  background-image: url(./images/smileOverlay.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Group {
+  width: 100px;
+  height: 100px;
+}
