@@ -74,3 +74,26 @@
   -webkit-transform: scale(1.4); /* Safari 3-8 */
   transform: scale(1.4);
 }
+
+#testimonials {
+  text-align: center;
+  background-color: #5d4576;
+  color: white;
+  font-size: 1rem;
+  padding: 70px 100px 100px 70px;
+  border-bottom: 100px;
+}
+
+.testimonial-image {
+  border-radius: 50%;
+  width: 10%;
+}
+.testimonial-text {
+  padding: 0 200px 0 200px;
+}
+
+@media screen and (max-width: 992px) {
+  .appointmentButton {
+    width: 100%;
+  }
+}
