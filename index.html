@@ -235,29 +235,60 @@
 
 
    <section class="container-fluid">
-    <div class="row text-center " style="height:1000px;">
-     <div >
-      <h1 class="m-0" style="font-size: 130px; ">Gallery</h1>
-      <h2 class="m-0 "style="font-size: 50px;">Photo Showcase</h2>
-      <p class="text-muted  " style="font-size: 12px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+    <div class="row text-center">
+       <div class=" position-relative">
+        <h1 class="m-0" style="font-size: 130px; color:#f5f6fe ">Gallery</h1>
+        <h2  class="m-0 position-absolute start-50 translate-middle overlayText">Photo Showcase</h2>
+       </div>
+      <p class="text-muted  my-4" style="font-size: 12px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
         sed do eiusmod rihngt koinbdt<br> tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-     </div>
-     <div class="row" >
-     <div class="col-12 "  >
-       <img class="mx-2" src="images/gridimage1.jfif" width="250px" height="250px">
-       <img class="mx-2"src="images/gridimage2.jfif" width="200px" height="200px">
-       <img class="mx-2" src="images/gridimage3.jfif" width="300px" height="300px">
+     <div class="row d-none d-md-block" >
+     <div class="col-12 ">
+       <img src="images/gridimage1.jfif" class="img-fluid m-2 zoom">
+       <img src="images/gridimage2.jfif" class="img-fluid m-2 zoom">
+       <img src="images/gridimage3.jfif" class="img-fluid m-2 zoom">
+       <img src="images/gridimage4.jfif" class="img-fluid m-2 zoom">
+       <img src="images/gridimage5.jfif" class="img-fluid m-2 zoom">
+       <img src="images/gridimage6.jfif" class="img-fluid m-2 zoom">
+       <img src="images/gridimage4.jfif" class="img-fluid m-2 zoom">
+       <img src="images/gridimage5.jfif" class="img-fluid m-2 zoom">
      </div>   
-
-     <div class="col-12"  >
-      <img class="mx-2"src="images/gridimage4.jfif" width="250px" height="250px">
-      <img class="mx-2 my-0"src="images/gridimage5.jfif" width="200px" height="300px">
-      <img class="mx-2  my-5"src="images/gridimage6.jfif" width="300px" height="200px">
-    </div> 
      </div>  
-    
     </div>
+
+
+    <div id="carouselExampleIndicators" class="carousel slide d-block d-md-none" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/gridimage1.jfif" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/gridimage2.jfif" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/gridimage3.jfif" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
    </section>
+
+
+
 
    <div class="row  middlePageImage my-5 mx-5  " style="height:550px;"  >
     <div >
