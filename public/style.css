@@ -42,6 +42,7 @@
   background-image: url(./images/smileOverlay.png);
   background-repeat: no-repeat;
   background-size: cover;
+  object-fit: cover;
 }
 .Group {
   width: 100px;
@@ -83,4 +84,19 @@
 
 a {
   text-decoration: none;
+}
+li {
+  color: #5d4576;
+}
+
+@media screen and (max-width: 500px) {
+  iframe {
+    width: 100%;
+    border-radius: 0% !important;
+  }
+
+  .awards {
+    width: 100% !important;
+    border-radius: 0% !important;
+  }
 }
